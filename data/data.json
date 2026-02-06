@@ -1,0 +1,226 @@
+[ {
+  "id" : 1,
+  "country" : "Albania",
+  "capital" : "Tirana",
+  "population" : 2800000
+}, {
+  "id" : 2,
+  "country" : "Andorra",
+  "capital" : "Andorra la Vella",
+  "population" : 77000
+}, {
+  "id" : 3,
+  "country" : "Austria",
+  "capital" : "Vienna",
+  "population" : 9100000
+}, {
+  "id" : 4,
+  "country" : "Belarus",
+  "capital" : "Minsk",
+  "population" : 9200000
+}, {
+  "id" : 5,
+  "country" : "Belgium",
+  "capital" : "Brussels",
+  "population" : 11600000
+}, {
+  "id" : 6,
+  "country" : "Bosnia and Herzegovina",
+  "capital" : "Sarajevo",
+  "population" : 3200000
+}, {
+  "id" : 7,
+  "country" : "Bulgaria",
+  "capital" : "Sofia",
+  "population" : 6400000
+}, {
+  "id" : 8,
+  "country" : "Croatia",
+  "capital" : "Zagreb",
+  "population" : 3800000
+}, {
+  "id" : 9,
+  "country" : "Cyprus",
+  "capital" : "Nicosia",
+  "population" : 1250000
+}, {
+  "id" : 10,
+  "country" : "Czechia",
+  "capital" : "Prague",
+  "population" : 11000000
+}, {
+  "id" : 11,
+  "country" : "Denmark",
+  "capital" : "Copenhagen",
+  "population" : 5900000
+}, {
+  "id" : 12,
+  "country" : "Estonia",
+  "capital" : "Tallinn",
+  "population" : 1300000
+}, {
+  "id" : 13,
+  "country" : "Finland",
+  "capital" : "Helsinki",
+  "population" : 5600000
+}, {
+  "id" : 14,
+  "country" : "France",
+  "capital" : "Paris",
+  "population" : 68000000
+}, {
+  "id" : 15,
+  "country" : "Germany",
+  "capital" : "Berlin",
+  "population" : 84000000
+}, {
+  "id" : 16,
+  "country" : "Greece",
+  "capital" : "Athens",
+  "population" : 10300000
+}, {
+  "id" : 17,
+  "country" : "Hungary",
+  "capital" : "Budapest",
+  "population" : 9600000
+}, {
+  "id" : 18,
+  "country" : "Iceland",
+  "capital" : "Reykjavik",
+  "population" : 390000
+}, {
+  "id" : 19,
+  "country" : "Ireland",
+  "capital" : "Dublin",
+  "population" : 5300000
+}, {
+  "id" : 20,
+  "country" : "Italy",
+  "capital" : "Rome",
+  "population" : 59000000
+}, {
+  "id" : 21,
+  "country" : "Latvia",
+  "capital" : "Riga",
+  "population" : 1900000
+}, {
+  "id" : 22,
+  "country" : "Liechtenstein",
+  "capital" : "Vaduz",
+  "population" : 39000
+}, {
+  "id" : 23,
+  "country" : "Lithuania",
+  "capital" : "Vilnius",
+  "population" : 2800000
+}, {
+  "id" : 24,
+  "country" : "Luxembourg",
+  "capital" : "Luxembourg",
+  "population" : 670000
+}, {
+  "id" : 25,
+  "country" : "Malta",
+  "capital" : "Valletta",
+  "population" : 540000
+}, {
+  "id" : 26,
+  "country" : "Moldova",
+  "capital" : "Chisinau",
+  "population" : 2600000
+}, {
+  "id" : 27,
+  "country" : "Monaco",
+  "capital" : "Monaco",
+  "population" : 39000
+}, {
+  "id" : 28,
+  "country" : "Montenegro",
+  "capital" : "Podgorica",
+  "population" : 620000
+}, {
+  "id" : 29,
+  "country" : "Netherlands",
+  "capital" : "Amsterdam",
+  "population" : 17800000
+}, {
+  "id" : 30,
+  "country" : "North Macedonia",
+  "capital" : "Skopje",
+  "population" : 1800000
+}, {
+  "id" : 31,
+  "country" : "Norway",
+  "capital" : "Oslo",
+  "population" : 5500000
+}, {
+  "id" : 32,
+  "country" : "Poland",
+  "capital" : "Warsaw",
+  "population" : 37600000
+}, {
+  "id" : 33,
+  "country" : "Portugal",
+  "capital" : "Lisbon",
+  "population" : 10300000
+}, {
+  "id" : 34,
+  "country" : "Romania",
+  "capital" : "Bucharest",
+  "population" : 19000000
+}, {
+  "id" : 35,
+  "country" : "Russia",
+  "capital" : "Moscow",
+  "population" : 146000000
+}, {
+  "id" : 36,
+  "country" : "San Marino",
+  "capital" : "San Marino",
+  "population" : 34000
+}, {
+  "id" : 37,
+  "country" : "Serbia",
+  "capital" : "Belgrade",
+  "population" : 6600000
+}, {
+  "id" : 38,
+  "country" : "Slovakia",
+  "capital" : "Bratislava",
+  "population" : 5400000
+}, {
+  "id" : 39,
+  "country" : "Slovenia",
+  "capital" : "Ljubljana",
+  "population" : 2100000
+}, {
+  "id" : 40,
+  "country" : "Spain",
+  "capital" : "Madrid",
+  "population" : 48000000
+}, {
+  "id" : 41,
+  "country" : "Sweden",
+  "capital" : "Stockholm",
+  "population" : 10500000
+}, {
+  "id" : 42,
+  "country" : "Switzerland",
+  "capital" : "Bern",
+  "population" : 8800000
+}, {
+  "id" : 43,
+  "country" : "Ukraine",
+  "capital" : "Kyiv",
+  "population" : 37000000
+}, {
+  "id" : 44,
+  "country" : "United Kingdom",
+  "capital" : "London",
+  "population" : 67000000
+}, {
+  "id" : 45,
+  "country" : "Vatican City",
+  "capital" : "Vatican City",
+  "population" : 800
+} ]
