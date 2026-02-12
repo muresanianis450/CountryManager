@@ -72,7 +72,7 @@ You **cannot** do this from the browser URL bar. You must send a PUT request
 Invoke-RestMethod -Method PUT `
   -Uri "http://localhost:8080/countries/10" `
   -ContentType "application/json" `
-  -Body '{"country":"Czechia","capital":"Prague","population":11000000}'
+  -Body '{"country":"Czechia","capital":"Prague","population":16000000}'
 ```
 
 ## Step 4 - Verify the update
