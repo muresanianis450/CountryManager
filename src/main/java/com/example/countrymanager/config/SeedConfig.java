@@ -20,6 +20,8 @@ public class SeedConfig {
                            @Value("${app.data.path:data/data.json}") String path){
 
         return args ->{
+
+
             if(repo.count() == 0){
                 Country[] arr = mapper.readValue(Paths.get(path).toFile(),Country[].class);
                 for (Country c : arr)
