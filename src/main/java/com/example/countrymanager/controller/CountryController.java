@@ -54,4 +54,11 @@ public class CountryController {
 
         return countryRepo.save(existing);
     }
+
+    // POST /countries
+    @PostMapping
+    public Country create(@RequestBody Country body) {
+        body.setId(null); // ensure DB generates id
+        return countryRepo.save(body);
+    }
 }

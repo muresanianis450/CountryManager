@@ -1,0 +1,23 @@
+###Get all countries
+
+GET http://localhost:8080/countries
+
+
+###Get one country
+
+GET http://localhost:8080/countries/9
+
+### Update one country
+
+PUT http://localhost:8080/countries/9
+Content-Type: application/json
+
+{
+    "country": "Cyprus",
+    "capital": "Nicosia",
+    "population": 10101010
+}
+
+
+### Delete country
+DELETE http://localhost:8080/countries/9
