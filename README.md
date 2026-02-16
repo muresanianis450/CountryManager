@@ -83,3 +83,48 @@ Now open again:
 http://localhost:8080/countries/10
 ```
 
+
+### Changes added on 16.02.2026 (Final Version)
+
+# 1. SQL Server Integration
+
+- Established a **TCP/IP connection** between the Spring Boot application and a **Microsoft SQL Server database**
+- Enabled TCP/IP protocol in SQL Server Configuration Manager
+- Configured `country_user` as `db_owner` (for development purposes)
+- Database connection configuration (**URL**, **username**, **password**) is defined in `src/main/resources/application.properties`
+# 2. PowerShell Test Section
+To verify that SQL Server is listening on the correct port:
+Run in `PowerShell` 
+```shell
+Test-NetConnection localhost -Port 1433
+```
+
+# 3. JPA Configuration
+- Hibernate is configured with:
+```properties
+spring.jpa.hibernate.dll-auto=update
+```
+- The SQL Server dialect is automatically detected.
+
+# 4.🔒SQL Queries to Verify Database Updates
+
+```sql
+-- See All Countries
+SELECT * FROM dbo.countries;
+
+
+--See Country With ID = 9
+SELECT * FROM dbo.countries
+WHERE id = 9;
+
+--See Cyprus
+SELECT * FROM dbo.countries
+WHERE country = 'Cyprus';
+
+```
+# 5. ❗EndPoint Testing Via .http file
+- No longer needed for the application to be tested in a WebBrowser, you can test it in the console
+`test/countries.http`
+
+
+# ⚠️Note: The application requires SQL Server to be running before startup  
